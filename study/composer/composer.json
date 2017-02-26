@@ -1,0 +1,19 @@
+{
+  "name": "root/composer",
+  "description": "Study",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Alberto Concha Curay",
+      "email": "luisconchacuray@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzle/guzzle": "3.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LACC\\": "src"
+    }
+  }
+}

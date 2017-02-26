@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_v4naAPwpEeaF79aHkc6WXQ" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OINlIPwqEeaF79aHkc6WXQ" name="Admin"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Qq-c0PwqEeaF79aHkc6WXQ" name="Gerente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Rh9vMPwqEeaF79aHkc6WXQ" name="User"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VIHWgPwqEeaF79aHkc6WXQ" name="Cadastrar Cliente">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mO6C4PwrEeaYJcyFK4P0Ag" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_bRQpkPwrEeaYJcyFK4P0Ag" addition="_SeEVoPwrEeaYJcyFK4P0Ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cqkbUPwqEeaF79aHkc6WXQ" memberEnd="_crIcAPwqEeaF79aHkc6WXQ _crJDEPwqEeaF79aHkc6WXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cqmQgPwqEeaF79aHkc6WXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cqm3kPwqEeaF79aHkc6WXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_crIcAPwqEeaF79aHkc6WXQ" name="cadastrar cliente" type="_VIHWgPwqEeaF79aHkc6WXQ" association="_cqkbUPwqEeaF79aHkc6WXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_crJDEPwqEeaF79aHkc6WXQ" name="admin" type="_OINlIPwqEeaF79aHkc6WXQ" association="_cqkbUPwqEeaF79aHkc6WXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dkBy4PwqEeaF79aHkc6WXQ" memberEnd="_dkDBAPwqEeaF79aHkc6WXQ _dkDBAfwqEeaF79aHkc6WXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dkCZ8PwqEeaF79aHkc6WXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dkCZ8fwqEeaF79aHkc6WXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dkDBAPwqEeaF79aHkc6WXQ" name="cadastrar cliente" type="_VIHWgPwqEeaF79aHkc6WXQ" association="_dkBy4PwqEeaF79aHkc6WXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dkDBAfwqEeaF79aHkc6WXQ" name="gerente" type="_Qq-c0PwqEeaF79aHkc6WXQ" association="_dkBy4PwqEeaF79aHkc6WXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eatjQPwqEeaF79aHkc6WXQ" memberEnd="_eauKUvwqEeaF79aHkc6WXQ _eauKU_wqEeaF79aHkc6WXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eauKUPwqEeaF79aHkc6WXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eauKUfwqEeaF79aHkc6WXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eauKUvwqEeaF79aHkc6WXQ" name="cadastrar cliente" type="_VIHWgPwqEeaF79aHkc6WXQ" association="_eatjQPwqEeaF79aHkc6WXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eauKU_wqEeaF79aHkc6WXQ" name="user" type="_Rh9vMPwqEeaF79aHkc6WXQ" association="_eatjQPwqEeaF79aHkc6WXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GZB2cPwrEeaYJcyFK4P0Ag" name="Alterar Cliente"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SeEVoPwrEeaYJcyFK4P0Ag" name="Consultar Cliente"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ipsPsPwrEeaYJcyFK4P0Ag" name="Cadastrar Endereço">
+    <extend xmi:type="uml:Extend" xmi:id="_mO4NsPwrEeaYJcyFK4P0Ag" extendedCase="_VIHWgPwqEeaF79aHkc6WXQ" extensionLocation="_mO6C4PwrEeaYJcyFK4P0Ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TGQhkPwsEeaYJcyFK4P0Ag" name="Cliente">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cb5bQPwsEeaYJcyFK4P0Ag" name="id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Q01cEPwtEeaYJcyFK4P0Ag" name="getId"/>
+  </packagedElement>
+</uml:Model>
