@@ -9,7 +9,7 @@
  * Project: lacc_php7
  * Copyright: 2017
  */
-namespace LAC\Model;
+namespace LACC\Model;
 
 class Client
 {

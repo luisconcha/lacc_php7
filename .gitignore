@@ -1,2 +1,15 @@
 .idea/
 project/lacc_mailmarketing/
+.gitignore
+LICENSE.md
+README.md
+composer.json
+composer.lock
+config/
+data/
+phpcs.xml
+phpunit.xml.dist
+public/
+src/
+templates/
+test/

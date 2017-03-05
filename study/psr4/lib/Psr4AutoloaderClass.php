@@ -169,7 +169,6 @@ class Psr4AutoloaderClass
      */
     protected function requireFile( $file )
     {
-        echo '<pre>'.__FILE__.': '.__LINE__.'<hr>';print_r($file);echo'<hr></pre>';exit;
         if ( file_exists( $file ) ) {
             require $file;
 
