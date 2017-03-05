@@ -18,11 +18,12 @@ class AppMiddleware extends MiddlewarePipe
     public function __construct()
     {
         parent::__construct();
+        
         $this->pipe( '/', function ( $request, $response, $next ) {
             if ( !in_array( $request->getUri()->getPath(), [ '/', '' ], true ) ) {
                 return $next( $request, $response );
             }
-             echo '<pre>'.__FILE__.': '.__LINE__.'<hr>';print_r('ssss');echo'<hr></pre>';exit;
+            
             return $response->write( 'Página Home' );
         });
         $this->pipe( '/rota1', new Rota1Middleware() );
